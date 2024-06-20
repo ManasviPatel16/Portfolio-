@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manasvi Patel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #555;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .experience, .education-item, .certification, .volunteer {
+            margin-bottom: 20px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manasvi Patel</h1>
+        <p>Human Resource Manager</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Licenses & Certifications</a></li>
+            <li><a href="#volunteering">Volunteering</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>With experience in HR management and marketing, I excel in talent acquisition, performance management, and marketing strategies. At Qrious Tech Team LLP, I focused on fostering a positive workplace culture and supporting organizational growth through HR initiatives. In my previous role at ITwala Infotech LLP, I honed my skills in marketing campaigns, market research, content creation, and social media management to drive brand visibility and growth.</p>
+        <p>I am passionate about creating thriving work environments and leveraging digital strategies for success.</p>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Human Resources Manager</h3>
+            <p><strong>Qrious Tech Team LLP · Full-time</strong></p>
+            <p>Feb 2023 - Present · 1 yr 5 mos</p>
+            <p>Ahmedabad, Gujarat, India · On-site</p>
+            <p>As an experienced HR Manager at Qrious Tech Team LLP, I drive strategic talent management initiatives to foster a positive workplace culture and support organizational growth. Skilled in recruitment, performance management, and employee development, I am dedicated to creating a thriving work environment that promotes success and employee satisfaction.</p>
+            <h4>Skills:</h4>
+            <div class="skills">
+                <ul>
+                    <li>Talent acquisition</li>
+                    <li>Performance Management</li>
+                    <li>HR Policy Formulation</li>
+                    <li>Employee Relations</li>
+                    <li>Organizational Culture Building</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience">
+            <h3>Marketing Intern</h3>
+            <p><strong>Itwala Infotech LLP · Internship</strong></p>
+            <p>Dec 2022 - Feb 2023 · 3 mos</p>
+            <p>Ahmedabad, Gujarat, India · On-site</p>
+            <p>As a former Marketing Intern at Itwala Infotech LLP, I gained hands-on experience in executing marketing campaigns, conducting market research, and supporting the team in various marketing initiatives. I assisted in creating engaging content, managing social media channels, and analyzing campaign performance. I was passionate about leveraging digital marketing strategies to enhance brand visibility and drive growth. My time at Itwala Infotech LLP allowed me to develop my skills and make a positive impact within the dynamic marketing team.</p>
+            <h4>Skills:</h4>
+            <div class="skills">
+                <ul>
+                    <li>Marketing Campaign Execution</li>
+                    <li>Market Research Analysis</li>
+                    <li>Content Creation</li>
+                    <li>Social Media Management</li>
+                    <li>Digital Marketing Strategy Development</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Parul University</h3>
+            <p><strong>Diploma of Education, Computer Application & Business Management</strong></p>
+            <p>May 2023 - Jul 2024</p>
+        </div>
+        <div class="education-item">
+            <h3>Parul University</h3>
+            <p><strong>Bachelor of Business Administration - BBA, Business</strong></p>
+            <p>Jul 2021 - May 2024</p>
+        </div>
+        <div class="education-item">
+            <h3>Sankalp International School</h3>
+            <p><strong>Commerce</strong></p>
+            <p>Grade: 90.59</p>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Licenses & Certifications</h2>
+        <div class="certification">
+            <h3>Data Analytics</h3>
+            <p><strong>Simplilearn</strong></p>
+            <p>Issued Oct 2023</p>
+            <div class="skills">
+                <strong>Skills:</strong> Business Intelligence, Data Cleaning, Data Cleaning and Preparation, Data Analysis, Statistical Analysis, Data-driven Decision Making, Data Visualization, SQL, Data Mining, Data Interpretation
+            </div>
+        </div>
+
+        <div class="certification">
+            <h3>Data Science</h3>
+            <p><strong>Indian Institute of Management Bangalore</strong></p>
+            <p>Issued Sep 2023</p>
+            <div class="skills">
+                <strong>Skills:</strong> Algorithm Development, Big Data Analytics, Machine Learning, Python Programming, Statistical Modeling, R Programming, Deep Learning, Business Analytics
+            </div>
+        </div>
+
+        <div class="certification">
+            <h3>Data Analytics Consulting</h3>
+            <p><strong>KPMG</strong></p>
+            <p>Issued Jul 2023</p>
+            <p>Credential ID: oYz9eHRYsHMCdJqcS</p>
+            <div class="skills">
+                <strong>Skills:</strong> Client Communication, Business Intelligence, Project Management, Data Analytics Consulting, Business Process Improvement, Advanced Data Analysis, Statistical Data Analysis, Analytical Problem Solving, Consulting Engagements
+            </div>
+        </div>
+
+        <div class="certification">
+            <h3>Data Visualisation: Empowering Business with Effective Insights</h3>
+            <p><strong>Tata Technologies</strong></p>
+            <p>Issued Jul 2023</p>
+            <p>Credential ID: LB7iiXLWjKAkkWYFm</p>
+            <div class="skills">
+                <strong>Skills:</strong> Presentation Skills, Data Storytelling, Visual Analytics, Power BI, Reporting & Analysis, Advanced Excel, Dashboard Creation, Interactive Data Visualizations, KPI Tracking
+            </div>
+        </div>
+
+        <div class="certification">
+            <h3>Microsoft Excel</h3>
+            <p><strong>PARUL UNIVERSITY</strong></p>
+            <p>Issued May 2022</p>
+            <div class="skills">
+                <strong>Skills:</strong> Data Visualization in Excel, Data Analysis with Excel, Data Cleaning and Preparation, Data Entry and Management, Pivot Tables, Microsoft Excel Proficiency, Advanced Excel Functions, Excel Dashboards
+            </div>
+        </div>
+
+        <div class="certification">
+            <h3>Google Project Management</h3>
+            <p><strong>Google</strong></p>
+            <p>Issued Jan 2023</p>
+            <div class="skills">
+                <strong>Skills:</strong> Project Planning, Task Management, Team Leadership, Stakeholder Communication, Agile Methodologies, Risk Management, Budgeting & Finance, Resource Allocation
+            </div>
+        </div>
+    </section>
+
+    <section id="volunteering">
+        <h2>Volunteering</h2>
+        <div class="volunteer">
+            <h3>International Model United Nations</h3>
+            <p><strong>Delegate</strong></p>
+            <p><strong>Nov 2021 - Dec 2021 · 2 mos</strong></p>
+            <p><strong>Environment</strong></p>
+            <p>As a volunteer delegate at the International Model United Nations (IMUN), I had the honor of representing Germany on the topic of environmental sustainability. This role involved extensive research, diplomatic negotiation, and collaborative problem-solving to address global environmental challenges. Key responsibilities and achievements include:</p>
+            <ul>
+                <li>Research and Policy Development</li>
+                <li>Diplomatic Negotiation</li>
+                <li>Public Speaking and Debate</li>
+                <li>Resolution Drafting</li>
+                <li>Networking and Collaboration</li>
+            </ul>
+            <p>This experience honed my skills in research, negotiation, public speaking, and teamwork, while deepening my understanding of global environmental challenges and solutions.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p><a href="Email">manansvi1608@gmail.com</a> or connect with me on <a href="https://linkedin.com/in/manasvidpatel" target="_link">LinkedIn</a>.</p>
+    </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+style.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+
+
+Script.js
+
+
+function showTime() {
+	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+}
+showTime();
+setInterval(function () {
+	showTime();
+}, 1000);
